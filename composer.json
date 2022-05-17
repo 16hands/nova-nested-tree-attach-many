@@ -11,7 +11,7 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1.0",
-        "norhan-elnezamy/laravel-nestedset": "dev-master"
+        "norhan-elnezamy/laravel-nestedset": "6.0.2"
     },
     "autoload": {
         "psr-4": {
@@ -33,8 +33,10 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "repositories": [{
-        "type": "vcs",
-        "url": "https://github.com/norhan-elnezamy/laravel-nestedset"
-    }]
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/norhan-elnezamy/laravel-nestedset"
+        }
+    ]
 }
