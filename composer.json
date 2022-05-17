@@ -1,16 +1,17 @@
 {
-    "name": "phoenix-lib/nova-nested-tree-attach-many",
+    "name": "norhan-elnezamy/nova-nested-tree-attach-many",
     "description": "Nova vue-tree-select field for management nested category relations.",
     "keywords": [
         "laravel",
         "nova",
         "belongs-to-many",
-        "nested-sets"
+        "nested-sets",
+        "sorting tree"
     ],
     "license": "MIT",
     "require": {
         "php": ">=7.1.0",
-        "norhan-elnezamy/laravel-nestedset": "1.1"
+        "norhan-elnezamy/laravel-nestedset": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -28,5 +29,9 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/norhan-elnezamy/laravel-nestedset"
+    }]
 }
