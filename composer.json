@@ -10,8 +10,8 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0",
-        "norhan-elnezamy/laravel-nestedset": "6.0.2"
+        "php": ">=7.4",
+        "norhan-elnezamy/laravel-nestedset": "6.1"
     },
     "autoload": {
         "psr-4": {
