@@ -11,7 +11,7 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1.0",
-        "norhan-elnezamy/laravel-nestedset": "master"
+        "norhan-elnezamy/laravel-nestedset": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -26,7 +26,10 @@
         }
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
