@@ -18,7 +18,7 @@ Belongs To Many Field for simple manage Nested relation tree. Enables attaching 
 ### Installation
 
 ```bash
-composer require phoenix-lib/nova-nested-tree-attach-many
+composer require norhan-elnezamy/nova-nested-tree-attach-many
 ```
 
 ### Usage
