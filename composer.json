@@ -31,13 +31,11 @@
             "kylekatarnls/update-helper": true
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/norhan-elnezamy/laravel-nestedset",
-            "reference": "629fbb9113ec0c7fe4c6739639c9825a04ecad3b"
+            "type": "git",
+            "url": "git@github.com:norhan-elnezamy/laravel-nestedset.git",
+            "reference": "v5"
         }
     ]
 }
