@@ -35,8 +35,9 @@
     "prefer-stable": true,
     "repositories": [
         {
-            "type": "git",
-            "url": "https://github.com/norhan-elnezamy/laravel-nestedset"
+            "type": "vcs",
+            "url": "https://github.com/norhan-elnezamy/laravel-nestedset",
+            "reference": "629fbb9113ec0c7fe4c6739639c9825a04ecad3b"
         }
     ]
 }
