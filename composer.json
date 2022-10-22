@@ -1,5 +1,5 @@
 {
-    "name": "norhan-elnezamy/nova-nested-tree-attach-many",
+    "name": "16hands/nova-nested-tree-attach-many",
     "description": "Nova vue-tree-select field for management nested category relations.",
     "keywords": [
         "laravel",
@@ -10,8 +10,8 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.4",
-        "norhan-elnezamy/laravel-nestedset": "6.3"
+        "php": ">=8.0",
+        "kalnoy/nestedset": "~6"
     },
     "autoload": {
         "psr-4": {
@@ -34,7 +34,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "git@github.com:norhan-elnezamy/laravel-nestedset.git",
+            "url": "git@github.com:16hands/laravel-nestedset.git",
             "reference": "v5"
         }
     ]
